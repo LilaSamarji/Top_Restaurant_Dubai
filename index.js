@@ -7,7 +7,7 @@ fetch('https://restaurants-api-u1o9.onrender.com')
             
                   var cards= document.createElement('div');
                 cards.innerHTML=`
-                 <div class="col-4>
+                 <div class="col-4">
 
 <div class="card" style="width:22.3vw;height:22.3vw;  margin-right: 15vw; margin-bottom:10vw;  box-shadow: rgba(0, 0, 0, 0.35) 0px 2vw 5vw; ">
      <img src="${restaurant.Picture}" class="card-img-top">
